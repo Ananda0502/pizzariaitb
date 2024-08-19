@@ -6,7 +6,7 @@ const Listagem = () => {
     const ItensLista = () => pizzas.map(
         pizza => 
         <li style={{listStyle: 'none'}}>
-           <img src={pizza.imagem} 
+           <img src={pizza.imagem}
            alt={pizza.nome}
            style={{
             width: "150",
