@@ -5,6 +5,9 @@ import './App.css'
 
 const App = () => {
 
+  const [color] = useState("#0000FF")
+  document.body.style.backgroundColor = color
+
   return (
     <Routes>
       <Route path="/" />
